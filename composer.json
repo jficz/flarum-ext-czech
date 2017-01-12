@@ -1,5 +1,5 @@
 {
-    "name": "cptMikky/flarum-ext-czech",
+    "name": "cptmikky/flarum-ext-czech",
     "type": "flarum-extension",
     "description": "Czech language pack.",
     "keywords": ["locale"],
