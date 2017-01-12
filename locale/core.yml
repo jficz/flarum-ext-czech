@@ -491,7 +491,7 @@ core:
     change_email: Změnit e-mail
     change_password: Změnit heslo 
     confirm_password: Potvrdit heslo
-    confirmation_email_sent: "We've sent a confirmation email to {email}. If it doesn't arrive soon, check your spam folder."
+    confirmation_email_sent: "Nadresu {email} jsme zaslali potvrzovací e-mail. Pokud nedorazí během několika minut, zkontrolujte prosím vaši složku se SPAMem."
     delete: Smazat
     delete_forever: Smazat navždy
     discussions: Diskuse
@@ -514,8 +514,8 @@ core:
     some_others: "{count} další|{count} dalších"  # Referenced by flarum-likes.yml, flarum-mentions.yml
     start_a_discussion: Začít novou diskusi
     username: Uživatelské jméno
-    write_a_reply: Write a Reply...
-    you: You                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
+    write_a_reply: Odpovědět...
+    you: Vy                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
 
   ##
   # GROUP NAMES - These keys are translated at the back end.
@@ -523,11 +523,11 @@ core:
 
   # Translations in this namespace are used to translate default group names.
   group:
-    admin: Admin
-    admins: Admins
-    guest: Guest
-    guests: Guests
-    member: Member
-    members: Members
-    mod: Mod
-    mods: Mods
+    admin: Administrátor
+    admins: Administrátoři
+    guest: Host
+    guests: Hosté
+    member: Člen
+    members: Členové
+    mod: Moderátor
+    mods: Moderátoři
