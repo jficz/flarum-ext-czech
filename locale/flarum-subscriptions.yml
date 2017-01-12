@@ -38,7 +38,7 @@ flarum-subscriptions:
       following_text: Zaslat notifikace o všech odpovědích.
       ignoring_button: => flarum-subscriptions.ref.ignoring
       ignoring_text: Nezasílat žádné notifikace. Nezobrazovat v seznamu diskusí.
-      not_following_button: Nesledujete
+      not_following_button: Nesledovat
       not_following_text: "Zaslat notifikace pouze v případě @zmínění."
       notify_alert_tooltip: Zaslat notifikaci při nových příspěvcích.
       notify_email_tooltip: Zaslat e-mail při nových příspěvcích.
@@ -50,5 +50,5 @@ flarum-subscriptions:
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
     follow: Sledovat
-    following: Sledováno
-    ignoring: Ignorováno
+    following: Sledovat
+    ignoring: Ignorovato
