@@ -1,0 +1,54 @@
+flarum-subscriptions:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the forum user interface.
+  forum:
+
+    # These translations are displayed as tooltips for discussion badges.
+    badge:
+      following_tooltip: => flarum-subscriptions.ref.following
+      ignoring_tooltip: => flarum-subscriptions.ref.ignoring
+
+    # These translations are used by the discussion control buttons.
+    discussion_controls:
+      follow_button: => flarum-subscriptions.ref.follow
+      unfollow_button: Pøestat sledovat
+      unignore_button: Pøestat ignorovat
+
+    # These translations are used on the index page, peripheral to the discussion list.
+    index:
+      following_link: => flarum-subscriptions.ref.following
+
+    # These translations are used by the Notifications dropdown, a.k.a. "the bell".
+    notifications:
+      new_post_text: "{username} vložil pøíspìvek"
+
+    # These translations are used in the Settings page.
+    settings:
+      follow_after_reply_label: Automaticky sledovat diskuse na které odpovím
+      notify_new_post_label: Nìkdo pøispìje do diskuse, kterou sleduji
+
+    # These translations are used in the subscription menu displayed to the right of the post stream.
+    sub_controls:
+      follow_button: => flarum-subscriptions.ref.follow
+      following_button: => flarum-subscriptions.ref.following
+      following_text: Upozornit na všechny odpovìdi.
+      ignoring_button: => flarum-subscriptions.ref.ignoring
+      ignoring_text: Nezasílat žádná upozornìní. Nezobrazovat v seznamu diskusí.
+      not_following_button: Nesledovat
+      not_following_text: "Upozornit pouze pøi @zmínce."
+      notify_alert_tooltip: Zaslat upozornìní na nové pøíspìvky
+      notify_email_tooltip: Zaslat e-mail pøi nových pøíspìvcích
+
+  ##
+  # REUSED TRANSLATIONS - These keys should not be used directly in code!
+  ##
+
+  # Translations in this namespace are referenced by two or more unique keys.
+  ref:
+    follow: Sledovat
+    following: Sledovat
+    ignoring: Ignorovat

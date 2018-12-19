@@ -1,0 +1,61 @@
+flarum-flags:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the admin interface.
+  admin:
+
+    # These translations are used in the Permissions page of the admin interface.
+    permissions:
+      flag_posts_label: Nahlásit pøíspìvky
+      view_flags_label: Zobrazit nahlášené pøíspìvky
+
+    # These translations are used in the Flags Settings modal dialog.
+    settings:
+      guidelines_url_label: Pravidla fóra (URL)
+      title: Nastavení nahlášení
+
+  # Translations in this namespace are used by the forum user interface.
+  forum:
+
+    # These translations are used by the Flag Post modal dialog.
+    flag_post:
+      confirmation_message: Dìkujeme Vám za nahlášení pøíspìvku, naši moderátoøi se mu budou vìnovat.
+      dismiss_button: => core.ref.okay
+      reason_inappropriate_label: Nevhodný
+      reason_inappropriate_text: "Tento pøíspìvek je urážlivý, nevhodný nebo porušuje <a>pravidla fóra</a>."
+      reason_off_topic_label: "Off-topic (nesouvisející téma)"
+      reason_off_topic_text: Tento pøíspìvek není relevantní k aktuální diskusi a mìl by být pøesunut jinam.
+      reason_other_label: Jiný dùvod
+      reason_spam_label: Spam
+      reason_spam_text: Tento pøíspìvek je reklama.
+      submit_button: => flarum-flags.ref.flag_post
+      title: => flarum-flags.ref.flag_post
+
+    # These translations are used by the Flagged Posts dropdown, a.k.a. "the flag".
+    flagged_posts:
+      empty_text: Žádné nahlášené pøíspìvky
+      item_text: "{username} v <em>{discussion}</em>"
+      title: => flarum-flags.ref.flagged_posts
+      tooltip: => flarum-flags.ref.flagged_posts
+
+    # These translations are used by the frame displayed around flagged posts.
+    post:
+      dismiss_flag_button: Zrušit nahlášení
+      flagged_by_text: "Nahlásil {username}"
+      flagged_by_with_reason_text: "Nahlásil {username} jako {reason}"
+
+    # These translations are used by the post control buttons.
+    post_controls:
+      flag_button: Nahlásit
+
+  ##
+  # REUSED TRANSLATIONS - These keys should not be used directly in code!
+  ##
+
+  # Translations in this namespace are referenced by two or more unique keys.
+  ref:
+    flag_post: Nahlásit pøíspìvek
+    flagged_posts: Nahlásit pøíspìvky
