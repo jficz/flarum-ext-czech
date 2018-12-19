@@ -9,14 +9,14 @@ flarum-lock:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      lock_discussions_label: Uzamčená vlákna
+      lock_discussions_label: Uzam�en� diskuse
 
   # Translations in this namespace are used by the forum user interface.
   forum:
 
     # These translations are displayed as tooltips for discussion badges.
     badge:
-      locked_tooltip: Uzamčeno
+      locked_tooltip: Uzam�eno
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
@@ -25,13 +25,13 @@ flarum-lock:
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
-      discussion_locked_text: "{username} uzamkl"
+      discussion_locked_text: "Uzamkl {username}"
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      discussion_locked_text: "{username} uzamkl toto vlákno"
-      discussion_unlocked_text: "{username} odemkl toto vlákno"
+      discussion_locked_text: "Tuto diskusi uzamkl {username}."
+      discussion_unlocked_text: "Tuto diskusi odemkl {username}."
 
     # These translations are used in the Settings page.
     settings:
-      notify_discussion_locked_label: Někdo uzamknul vlákno, které jsem založil
+      notify_discussion_locked_label: N�kdo uzamkl diskusi, kterou jste zapo�ali

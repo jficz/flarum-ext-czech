@@ -9,18 +9,19 @@ flarum-mentions:
 
     # These translations are used by the composer (reply autocompletion function).
     composer:
-      reply_to_post_text: "OdpovÄ›dÄ›t na pÅ™Ã­spÄ›vek Ä. {number}"
+      mention_tooltip: Zmínit uivatele nebo pøíspìvek
+      reply_to_post_text: "Odpovìdìt na #{number}"
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
       others_text: => core.ref.some_others
-      post_mentioned_text: "{username} odpovÄ›dÄ›l na vÃ¡Å¡ pÅ™Ã­spÄ›vek"  # Can be pluralized to agree with the number of users!
-      user_mentioned_text: "{username} vÃ¡s zmÃ­nil"
+      post_mentioned_text: "{username} odpovìdìl na Váš pøíspìvek"  # Can be pluralized to agree with the number of users!
+      user_mentioned_text: "{username} Vás zmínil"
 
     # These translations are displayed beneath individual posts.
     post:
-      mentioned_by_self_text: "{users} odpovÄ›dÄ›l."  # Can be pluralized to agree with the number of users!
-      mentioned_by_text: "{users} odpovÄ›dÄ›l."       # Can be pluralized to agree with the number of users!
+      mentioned_by_self_text: "{users} odpovìdìl."  # Can be pluralized to agree with the number of users!
+      mentioned_by_text: "{users} odpovìdìl."       # Can be pluralized to agree with the number of users!
       others_text: => core.ref.some_others
       quote_button: Quote
       reply_link: => core.ref.reply
@@ -28,9 +29,9 @@ flarum-mentions:
 
     # These translations are used in the Settings page.
     settings:
-      notify_post_mentioned_label: NÄ›kdo odpovÄ›dÄ›l na mÅ¯j pÅ™Ã­spÄ›vek
-      notify_user_mentioned_label: NÄ›kdo mÄ› zmÃ­nil v pÅ™Ã­spÄ›vku
+      notify_post_mentioned_label: Nìkdo odpovìdìl na mùj pøíspìvek
+      notify_user_mentioned_label: Nìkdo mì zmínil v pøíspìvku
 
     # These translations are used in the user profile page and profile popup.
     user:
-      mentions_link: ZmÃ­nÄ›nÃ­
+      mentions_link: Zmínky

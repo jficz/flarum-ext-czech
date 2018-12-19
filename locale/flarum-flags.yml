@@ -9,47 +9,47 @@ flarum-flags:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      flag_posts_label: NahlÃ¡sit pÅ™Ã­spÄ›vky
-      view_flags_label: Zobrazit nahlÃ¡Å¡enÃ© pÅ™Ã­spÄ›vky
+      flag_posts_label: Nahlásit pøíspìvky
+      view_flags_label: Zobrazit nahlášené pøíspìvky
 
     # These translations are used in the Flags Settings modal dialog.
     settings:
-      guidelines_url_label: StrÃ¡nka se zÃ¡sadami chovÃ¡nÃ­
-      title: NastavenÃ­ nahlaÅ¡ovÃ¡nÃ­
+      guidelines_url_label: Pravidla fóra (URL)
+      title: Nastavení nahlášení
 
   # Translations in this namespace are used by the forum user interface.
   forum:
 
     # These translations are used by the Flag Post modal dialog.
     flag_post:
-      confirmation_message: DÄ›kujeme za nahlÃ¡Å¡enÃ­ pÅ™Ã­spÄ›vku, naÅ¡i moderÃ¡toÅ™i se na nÄ›j podÃ­vajÃ­.
+      confirmation_message: Dìkujeme Vám za nahlášení pøíspìvku, naši moderátoøi se mu budou vìnovat.
       dismiss_button: => core.ref.okay
-      reason_inappropriate_label: NevhodnÃ½
-      reason_inappropriate_text: "Tento pÅ™Ã­spÄ›vÄ›k je urÃ¡Å¾livÃ½, nevhodnÃ½, nebo poruÅ¡uje <a>zÃ¡sady chovÃ¡nÃ­</a>."
-      reason_off_topic_label: "Off-topic"
-      reason_off_topic_text: Tento pÅ™Ã­spÄ›vek nenÃ­ v tÃ©to diskusi relevantnÃ­ a mÄ›l by bÃ½t pÅ™esunut jinam.
-      reason_other_label: JinÃ½ dÅ¯vod
+      reason_inappropriate_label: Nevhodnı
+      reason_inappropriate_text: "Tento pøíspìvek je urálivı, nevhodnı nebo porušuje <a>pravidla fóra</a>."
+      reason_off_topic_label: "Off-topic (nesouvisející téma)"
+      reason_off_topic_text: Tento pøíspìvek není relevantní k aktuální diskusi a mìl by bıt pøesunut jinam.
+      reason_other_label: Jinı dùvod
       reason_spam_label: Spam
-      reason_spam_text: Tento pÅ™Ã­spÄ›vek je reklama.
+      reason_spam_text: Tento pøíspìvek je reklama.
       submit_button: => flarum-flags.ref.flag_post
       title: => flarum-flags.ref.flag_post
 
     # These translations are used by the Flagged Posts dropdown, a.k.a. "the flag".
     flagged_posts:
-      empty_text: Å½Ã¡dnÃ© nahlÃ¡Å¡enÃ© pÅ™Ã­spÄ›vky
+      empty_text: ádné nahlášené pøíspìvky
       item_text: "{username} v <em>{discussion}</em>"
       title: => flarum-flags.ref.flagged_posts
       tooltip: => flarum-flags.ref.flagged_posts
 
     # These translations are used by the frame displayed around flagged posts.
     post:
-      dismiss_flag_button: ZruÅ¡it nahlÃ¡Å¡enÃ­
-      flagged_by_text: "{username} nahlÃ¡sil"
-      flagged_by_with_reason_text: "{username} nahlÃ¡sil jako {reason}"
+      dismiss_flag_button: Zrušit nahlášení
+      flagged_by_text: "Nahlásil {username}"
+      flagged_by_with_reason_text: "Nahlásil {username} jako {reason}"
 
     # These translations are used by the post control buttons.
     post_controls:
-      flag_button: NahlÃ¡sit
+      flag_button: Nahlásit
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
@@ -57,5 +57,5 @@ flarum-flags:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    flag_post: NahlÃ¡sit pÅ™Ã­spÄ›vek
-    flagged_posts: NahlÃ¡Å¡enÃ© pÅ™Ã­spÄ›vky
+    flag_post: Nahlásit pøíspìvek
+    flagged_posts: Nahlásit pøíspìvky
