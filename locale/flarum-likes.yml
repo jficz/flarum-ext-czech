@@ -1,4 +1,4 @@
-flarum-likes:
+ï»¿flarum-likes:
 
   ##
   # UNIQUE KEYS - The following keys are used in only one location each.
@@ -9,7 +9,7 @@ flarum-likes:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      like_posts_label: Dát pøíspìvku To se mi líbí
+      like_posts_label: DÃ¡t pÅ™Ã­spÄ›vku To se mi lÃ­bÃ­
 
   # Translations in this namespace are used by the forum user interface.
   forum:
@@ -17,21 +17,21 @@ flarum-likes:
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
       others_text: => core.ref.some_others
-      post_liked_text: "{username} se libí Váš pøíspìvek"  # Can be pluralized to agree with the number of users!
+      post_liked_text: "{username} se libÃ­ VÃ¡Å¡ pÅ™Ã­spÄ›vek"  # Can be pluralized to agree with the number of users!
 
     # These translations are displayed beneath individual posts.
     post:
-      like_link: To se mi líbí
-      liked_by_self_text: "{users} se toto líbí."  # Can be pluralized to agree with the number of users!
-      liked_by_text: "{users} se toto líbí.|{users} se tyto líbí."
+      like_link: To se mi lÃ­bÃ­
+      liked_by_self_text: "{users} se toto lÃ­bÃ­."  # Can be pluralized to agree with the number of users!
+      liked_by_text: "{users} se toto lÃ­bÃ­.|{users} se tyto lÃ­bÃ­."
       others_link: => core.ref.some_others
-      unlike_link: To se mi nelíbí
+      unlike_link: To se mi nelÃ­bÃ­
       you_text: => core.ref.you
 
     # These translations are used by the Users Who Like This modal dialog.
     post_likes:
-      title: Uivatelé, kterım se toto libí
+      title: UÅ¾ivatelÃ©, kterÃ½m se toto libÃ­
 
     # These translations are used in the Settings page.
     settings:
-      notify_post_liked_label: Nìkomu se líbí mùj pøíspìvek
+      notify_post_liked_label: NÄ›komu se lÃ­bÃ­ mÅ¯j pÅ™Ã­spÄ›vek

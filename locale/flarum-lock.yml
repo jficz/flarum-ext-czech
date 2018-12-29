@@ -1,4 +1,4 @@
-flarum-lock:
+ï»¿flarum-lock:
 
   ##
   # UNIQUE KEYS - The following keys are used in only one location each.
@@ -9,14 +9,14 @@ flarum-lock:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      lock_discussions_label: Uzamèené diskuse
+      lock_discussions_label: UzamÄenÃ© diskuse
 
   # Translations in this namespace are used by the forum user interface.
   forum:
 
     # These translations are displayed as tooltips for discussion badges.
     badge:
-      locked_tooltip: Uzamèeno
+      locked_tooltip: UzamÄeno
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
@@ -34,4 +34,4 @@ flarum-lock:
 
     # These translations are used in the Settings page.
     settings:
-      notify_discussion_locked_label: Nìkdo uzamkl diskusi, kterou jste zapoèali
+      notify_discussion_locked_label: NÄ›kdo uzamkl diskusi, kterou jste zapoÄali

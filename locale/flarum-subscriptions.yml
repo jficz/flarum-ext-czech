@@ -1,4 +1,4 @@
-flarum-subscriptions:
+ï»¿flarum-subscriptions:
 
   ##
   # UNIQUE KEYS - The following keys are used in only one location each.
@@ -15,8 +15,8 @@ flarum-subscriptions:
     # These translations are used by the discussion control buttons.
     discussion_controls:
       follow_button: => flarum-subscriptions.ref.follow
-      unfollow_button: Pøestat sledovat
-      unignore_button: Pøestat ignorovat
+      unfollow_button: PÅ™estat sledovat
+      unignore_button: PÅ™estat ignorovat
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
@@ -24,24 +24,24 @@ flarum-subscriptions:
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
-      new_post_text: "{username} vloil pøíspìvek"
+      new_post_text: "{username} vloÅ¾il pÅ™Ã­spÄ›vek"
 
     # These translations are used in the Settings page.
     settings:
-      follow_after_reply_label: Automaticky sledovat diskuse na které odpovím
-      notify_new_post_label: Nìkdo pøispìje do diskuse, kterou sleduji
+      follow_after_reply_label: Automaticky sledovat diskuse na kterÃ© odpovÃ­m
+      notify_new_post_label: NÄ›kdo pÅ™ispÄ›je do diskuse, kterou sleduji
 
     # These translations are used in the subscription menu displayed to the right of the post stream.
     sub_controls:
       follow_button: => flarum-subscriptions.ref.follow
       following_button: => flarum-subscriptions.ref.following
-      following_text: Upozornit na všechny odpovìdi.
+      following_text: Upozornit na vÅ¡echny odpovÄ›di.
       ignoring_button: => flarum-subscriptions.ref.ignoring
-      ignoring_text: Nezasílat ádná upozornìní. Nezobrazovat v seznamu diskusí.
+      ignoring_text: NezasÃ­lat Å¾Ã¡dnÃ¡ upozornÄ›nÃ­. Nezobrazovat v seznamu diskusÃ­.
       not_following_button: Nesledovat
-      not_following_text: "Upozornit pouze pøi @zmínce."
-      notify_alert_tooltip: Zaslat upozornìní na nové pøíspìvky
-      notify_email_tooltip: Zaslat e-mail pøi novıch pøíspìvcích
+      not_following_text: "Upozornit pouze pÅ™i @zmÃ­nce."
+      notify_alert_tooltip: Zaslat upozornÄ›nÃ­ na novÃ© pÅ™Ã­spÄ›vky
+      notify_email_tooltip: Zaslat e-mail pÅ™i novÃ½ch pÅ™Ã­spÄ›vcÃ­ch
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!

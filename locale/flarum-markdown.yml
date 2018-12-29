@@ -1,4 +1,4 @@
-flarum-markdown:
+ï»¿flarum-markdown:
 
   ##
   # UNIQUE KEYS - The following keys are used in only one location each.
@@ -9,11 +9,11 @@ flarum-markdown:
 
     # These translations are used by the composer (emoji autocompletion function).
     composer:
-      bold_tooltip: Tuènì
-      code_tooltip: Kód
+      bold_tooltip: TuÄnÄ›
+      code_tooltip: KÃ³d
       header_tooltip: Nadpis
-      italic_tooltip: Kurzíva
+      italic_tooltip: KurzÃ­va
       link_tooltip: Odkaz
-      ordered_list_tooltip: Èíslování
+      ordered_list_tooltip: ÄŒÃ­slovÃ¡nÃ­
       quote_tooltip: Citace
-      unordered_list_tooltip: Odráky
+      unordered_list_tooltip: OdrÃ¡Å¾ky

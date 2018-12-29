@@ -1,4 +1,4 @@
-flarum-tags:
+ï»¿flarum-tags:
 
   ##
   # UNIQUE KEYS - The following keys are used in only one location each.
@@ -15,9 +15,9 @@ flarum-tags:
     edit_tag:
       color_label: => core.ref.color
       delete_tag_button: Odstranit tag
-      delete_tag_confirmation: "Opravdu si pøejete odstranit tento tag? Otagované diskuse NEBUDOU odstranìny."
+      delete_tag_confirmation: "Opravdu si pÅ™ejete odstranit tento tag? OtagovanÃ© diskuse NEBUDOU odstranÄ›ny."
       description_label: Popis
-      hide_label: Skrıt ve všech diskusích
+      hide_label: SkrÃ½t ve vÅ¡ech diskusÃ­ch
       name_label: => flarum-tags.ref.name
       name_placeholder: => flarum-tags.ref.name
       slug_label: Slug (URL adresa)
@@ -27,38 +27,38 @@ flarum-tags:
     # These translations are used in the navigation bar.
     nav:
       tags_button: => flarum-tags.ref.tags
-      tags_text: Správa seznamu tagù dostupnıch pro organizaci fóra.
+      tags_text: SprÃ¡va seznamu tagÅ¯ dostupnÃ½ch pro organizaci fÃ³ra.
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      allow_edit_tags_label: Povolit úpravu tagu
+      allow_edit_tags_label: Povolit Ãºpravu tagu
       restrict_by_tag_heading: Omezit podle tagu
-      tag_discussions_label: Tagy diskusí
+      tag_discussions_label: Tagy diskusÃ­
 
     # These translations are used in the Tag Settings modal dialog.
     tag_settings:
       range_separator_text: " na "
-      required_primary_heading: Poadovanı poèet primárních tagù
-      required_primary_text: Zadejte minimální a maximální poèet primárních tagù, které mohou bıt aplikovány na diskusi.
-      required_secondary_heading: Poadovanı poèet sekundárních tagù
-      required_secondary_text: Zadejte minimální a maximální poèet sekundárních tagù, které mohou bıt aplikovány na diskusi.
-      title: Nastavení tagù
+      required_primary_heading: PoÅ¾adovanÃ½ poÄet primÃ¡rnÃ­ch tagÅ¯
+      required_primary_text: Zadejte minimÃ¡lnÃ­ a maximÃ¡lnÃ­ poÄet primÃ¡rnÃ­ch tagÅ¯, kterÃ© mohou bÃ½t aplikovÃ¡ny na diskusi.
+      required_secondary_heading: PoÅ¾adovanÃ½ poÄet sekundÃ¡rnÃ­ch tagÅ¯
+      required_secondary_text: Zadejte minimÃ¡lnÃ­ a maximÃ¡lnÃ­ poÄet sekundÃ¡rnÃ­ch tagÅ¯, kterÃ© mohou bÃ½t aplikovÃ¡ny na diskusi.
+      title: NastavenÃ­ tagÅ¯
 
     # These translations are used in the Tags page.
     tags:
-      about_tags_text: "Tagy se pouívají pro organizaci diskusí. Primární taky lze chápat jako kategorie klasického fóra a lze je uspoøádat do dvou úrovní. Sekundárních tagy naopak uspoøádat nelze a jsou urèeny pro tzv. mikro-kategorizaci."
+      about_tags_text: "Tagy se pouÅ¾Ã­vajÃ­ pro organizaci diskusÃ­. PrimÃ¡rnÃ­ taky lze chÃ¡pat jako kategorie klasickÃ©ho fÃ³ra a lze je uspoÅ™Ã¡dat do dvou ÃºrovnÃ­. SekundÃ¡rnÃ­ch tagy naopak uspoÅ™Ã¡dat nelze a jsou urÄeny pro tzv. mikro-kategorizaci."
       create_tag_button: => flarum-tags.ref.create_tag
-      primary_heading: Primární tagy
-      secondary_heading: Sekundární tagy
-      settings_button: Nastavení
+      primary_heading: PrimÃ¡rnÃ­ tagy
+      secondary_heading: SekundÃ¡rnÃ­ tagy
+      settings_button: NastavenÃ­
 
   # Translations in this namespace are used by the forum user interface.
   forum:
 
     # These translations are used by the Choose Tags modal dialog.
     choose_tags:
-      choose_primary_placeholder: "Zvolte primární tag|Zvolte {count} primarní tagy"
-      choose_secondary_placeholder: "Zvolte ještì 1 tag|Zvolte ještì {count} tagy"
+      choose_primary_placeholder: "Zvolte primÃ¡rnÃ­ tag|Zvolte {count} primarnÃ­ tagy"
+      choose_secondary_placeholder: "Zvolte jeÅ¡tÄ› 1 tag|Zvolte jeÅ¡tÄ› {count} tagy"
       edit_title: "Upravit tagy pro {title}"
       submit_button: => core.ref.okay
       title: Zvolte tagy pro diskusi
@@ -72,18 +72,18 @@ flarum-tags:
       edit_tags_button: Upravit tagy
 
     header:
-      back_to_tags_tooltip: Zpìt na seznam tagù
+      back_to_tags_tooltip: ZpÄ›t na seznam tagÅ¯
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
-      more_link: Další...
+      more_link: DalÅ¡Ã­...
       tags_link: => flarum-tags.ref.tags
-      untagged_link: Bez tagù
+      untagged_link: Bez tagÅ¯
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      added_and_removed_tags_text: "{username} pøidal {tagsAdded} a odebral {tagsRemoved}."
-      added_tags_text: "{username} pøidal {tagsAdded}."
+      added_and_removed_tags_text: "{username} pÅ™idal {tagsAdded} a odebral {tagsRemoved}."
+      added_tags_text: "{username} pÅ™idal {tagsAdded}."
       removed_tags_text: "{username} odebral {tagsRemoved}."
       tags_text: "{tags} tag|{tags} tagy"
 
@@ -91,7 +91,7 @@ flarum-tags:
   lib:
 
     # This translation is displayed in place of the name of a tag that's been deleted.
-    deleted_tag_text: Odstranìnı
+    deleted_tag_text: OdstranÄ›nÃ½
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
@@ -99,6 +99,6 @@ flarum-tags:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    create_tag: Vytvoøit tag
-    name: Název
+    create_tag: VytvoÅ™it tag
+    name: NÃ¡zev
     tags: Tagy

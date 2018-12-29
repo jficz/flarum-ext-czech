@@ -1,4 +1,4 @@
-flarum-auth-facebook:
+ï»¿flarum-auth-facebook:
 
   ##
   # UNIQUE KEYS - The following keys are used in only one location each.
@@ -11,11 +11,11 @@ flarum-auth-facebook:
     facebook_settings:
       app_id_label: App ID
       app_secret_label: App Secret
-      title: Nastavení pro Facebook
+      title: NastavenÃ­ pro Facebook
 
   # Translations in this namespace are used by the forum user interface.
   forum:
 
     # These translations are used in the Log In modal dialog.
     log_in:
-      with_facebook_button: Pøihlásit se pøes Facebook
+      with_facebook_button: PÅ™ihlÃ¡sit se pÅ™es Facebook

@@ -1,4 +1,4 @@
-flarum-suspend:
+Ôªøflarum-suspend:
 
   ##
   # UNIQUE KEYS - The following keys are used in only one location each.
@@ -9,28 +9,28 @@ flarum-suspend:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      suspend_users_label: BlokovanÈ uûivatele
+      suspend_users_label: Blokovan√© u≈æivatele
 
   # Translations in this namespace are used by the forum user interface.
   forum:
     # These translations are used in the suspension notifications
     notifications:
-      user_suspended_text: "{username} V·s zablokoval na {timeReadable}"
-      user_unsuspended_text: "{username} V·s odblokoval"
+      user_suspended_text: "{username} V√°s zablokoval na {timeReadable}"
+      user_unsuspended_text: "{username} V√°s odblokoval"
 
     # These translations are used in the Suspend User modal dialog (admin function).
     suspend_user:
-      indefinitely_label: Zablokov·n na dobu neurËitou
-      limited_time_days_text: " dn˘"
-      limited_time_label: Zablokov·n po dobu...
-      not_suspended_label: NenÌ zablokov·n
+      indefinitely_label: Zablokov√°n na dobu neurƒçitou
+      limited_time_days_text: " dn≈Ø"
+      limited_time_label: Zablokov√°n po dobu...
+      not_suspended_label: Nen√≠ zablokov√°n
       status_heading: Stav blokace
       submit_button: => core.ref.save_changes
       title: "Zablokovat {username}"
 
     # These translations are displayed as tooltips for user badges.
     user_badge:
-      suspended_tooltip: Zablokov·n
+      suspended_tooltip: Zablokov√°n
 
     # These translations are found on the user profile page (admin function).
     user_controls:

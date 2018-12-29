@@ -1,4 +1,4 @@
-flarum-emoji:
+﻿flarum-emoji:
 
   ##
   # UNIQUE KEYS - The following keys are used in only one location each.
@@ -9,5 +9,5 @@ flarum-emoji:
 
     # These translations are used by the composer (emoji autocompletion function).
     composer:
-      emoji_tooltip: Vlo�it emoji
+      emoji_tooltip: Vložit emoji
       type_to_search_text: Hledejte emoji
