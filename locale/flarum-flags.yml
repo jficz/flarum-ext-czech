@@ -1,4 +1,4 @@
-flarum-flags:
+﻿flarum-flags:
 
   ##
   # UNIQUE KEYS - The following keys are used in only one location each.
@@ -14,20 +14,20 @@ flarum-flags:
 
     # These translations are used in the Flags Settings modal dialog.
     settings:
-      guidelines_url_label: Stránka se zásadami chování
-      title: Nastavení nahlašování
+      guidelines_url_label: Pravidla fóra (URL)
+      title: Nastavení nahlášení
 
   # Translations in this namespace are used by the forum user interface.
   forum:
 
     # These translations are used by the Flag Post modal dialog.
     flag_post:
-      confirmation_message: Děkujeme za nahlášení příspěvku, naši moderátoři se na něj podívají.
+      confirmation_message: Děkujeme Vám za nahlášení příspěvku, naši moderátoři se mu budou věnovat.
       dismiss_button: => core.ref.okay
       reason_inappropriate_label: Nevhodný
-      reason_inappropriate_text: "Tento příspěvěk je urážlivý, nevhodný, nebo porušuje <a>zásady chování</a>."
-      reason_off_topic_label: "Off-topic"
-      reason_off_topic_text: Tento příspěvek není v této diskusi relevantní a měl by být přesunut jinam.
+      reason_inappropriate_text: "Tento příspěvek je urážlivý, nevhodný nebo porušuje <a>pravidla fóra</a>."
+      reason_off_topic_label: "Off-topic (nesouvisející téma)"
+      reason_off_topic_text: Tento příspěvek není relevantní k aktuální diskusi a měl by být přesunut jinam.
       reason_other_label: Jiný důvod
       reason_spam_label: Spam
       reason_spam_text: Tento příspěvek je reklama.
@@ -44,8 +44,8 @@ flarum-flags:
     # These translations are used by the frame displayed around flagged posts.
     post:
       dismiss_flag_button: Zrušit nahlášení
-      flagged_by_text: "{username} nahlásil"
-      flagged_by_with_reason_text: "{username} nahlásil jako {reason}"
+      flagged_by_text: "Nahlásil {username}"
+      flagged_by_with_reason_text: "Nahlásil {username} jako {reason}"
 
     # These translations are used by the post control buttons.
     post_controls:
@@ -58,4 +58,4 @@ flarum-flags:
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
     flag_post: Nahlásit příspěvek
-    flagged_posts: Nahlášené příspěvky
+    flagged_posts: Nahlásit příspěvky

@@ -1,4 +1,4 @@
-flarum-mentions:
+﻿flarum-mentions:
 
   ##
   # UNIQUE KEYS - The following keys are used in only one location each.
@@ -9,13 +9,14 @@ flarum-mentions:
 
     # These translations are used by the composer (reply autocompletion function).
     composer:
-      reply_to_post_text: "Odpovědět na příspěvek č. {number}"
+      mention_tooltip: Zmínit uživatele nebo příspěvek
+      reply_to_post_text: "Odpovědět na #{number}"
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
       others_text: => core.ref.some_others
-      post_mentioned_text: "{username} odpověděl na váš příspěvek"  # Can be pluralized to agree with the number of users!
-      user_mentioned_text: "{username} vás zmínil"
+      post_mentioned_text: "{username} odpověděl na Váš příspěvek"  # Can be pluralized to agree with the number of users!
+      user_mentioned_text: "{username} Vás zmínil"
 
     # These translations are displayed beneath individual posts.
     post:
@@ -33,4 +34,4 @@ flarum-mentions:
 
     # These translations are used in the user profile page and profile popup.
     user:
-      mentions_link: Zmínění
+      mentions_link: Zmínky
