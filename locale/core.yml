@@ -1,4 +1,4 @@
-﻿core:
+core:
 
   ##
   # UNIQUE KEYS - The following keys are used in only one location each.
@@ -561,7 +561,7 @@
     settings: Nastavení
     sign_up: Registrace
     some_others: "{count} další|{count} dalších"  # Referenced by flarum-likes.yml, flarum-mentions.yml
-    start_a_discussion: začít diskusi
+    start_a_discussion: Začít diskusi
     username: Uživatelské jméno
     users: Uživatelé                                 # Referenced by flarum-statistics.yml
     write_a_reply: Odpovědět...
